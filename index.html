@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>FUNCTION CALC</title>
+   </head>
+   <body>
+      <h2>Calculadora Básica</h2>
+
+      <span>Numero 1:</span><input id="num1" type="number" required/> <br />
+      <span>Numero 2:</span><input id="num2" type="number" required/> <br />
+      <input type="radio" name="calc" id="soma" checked/> Soma<br />
+      <input type="radio" name="calc" id="subtracao"/> Subtração<br />
+      <input type="radio" name="calc" id="multiplicacao"/> Multiplicação<br />
+      <input type="radio" name="calc" id="divisao"/> Divisão<br />
+      <input type="radio" name="calc" id="resto"/> Resto da Divisáo<br />
+      <button onclick="main()">Calcular</button><br />
+      <span>Resposta:</span>
+      <div id="resp"></div>
+
+      <script src="js/script.js"></script>
+   </body>
+</html>
